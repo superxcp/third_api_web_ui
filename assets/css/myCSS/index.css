@@ -1,0 +1,407 @@
+@charset "utf-8";
+/* Mafengwo Login&reg */
+.sections {padding-top: 0px;padding-bottom: 0px;}
+
+.container-content {
+    margin-top: 50px;
+    width:900px;
+    float:left;
+}
+
+.center-position{
+    position: relative;
+    left:18%;
+
+}
+
+.sportal_right {
+    width: 330px;
+    float: left;
+}
+
+.single_features_right {margin-top: 0px;}
+
+.single_features_left img {
+    height: 300px;
+    width: 805px;
+}
+a:link, a:visited {
+    color: #444;
+    text-decoration: none;
+}
+
+.sin_tw_title {
+    font-size: 28px;
+    outline:none;
+    text-align: center;
+    line-height:65px;
+}
+.sin_tw_sum{
+    padding-top: 15px;
+    color: #888a8c;
+    font-size: 16px;
+    width: 785px;
+    margin: 0 auto;
+}
+
+#sin_tw_info {
+    width: 805px;
+    background: #FFF;
+    height: 50px;
+}
+.sin_tw_info {
+    font-size: 14px;
+    color: #c5c6c7!important;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    clear: both;
+    position: relative;
+    left: 50%;
+    float: left;
+}
+
+.sin_tw_info li {
+    list-style: none;
+    float: left;
+    position: relative;
+    left: -50%;
+    display: block;
+}
+.sin_tw_info li i {
+    background-image: url(https://bbs.nubia.cn/template/sin_nubia/sinkey/sintwicon.png);
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 18px;
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+.sin_tw_infoicon2 img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.sin_tw_info em {
+    margin: 0 20px 0 20px;
+    display: block;
+    float: left;
+    position: relative;
+    left: -50%;
+}
+.sin_tw_info_avatar {
+    margin-top: -5px;
+    display: block;
+}
+.sin_tw_info_user {
+    display: block;
+    margin: -25px 0 0 40px;
+}
+.sin_tw_infoicon3 i {
+    background-position: -20px 0;
+}
+.sin_tw_infoicon4 i {
+    background-position: -42px 0;
+}
+.sin_tw_info, .sin_tw_info a {
+    font-size: 14px;
+    color: #c5c6c7!important;
+}
+
+.col-content {
+    width:96%;
+}
+
+.dfsj_topyt a.dfsj_post {
+    background-position: 0 0;
+    width: 100%;
+    background: url(https://bbs.nubia.cn/template/sin_nubia/sinkey/sd_toppic.png) #e7340c no-repeat 80px 0;
+    margin-bottom: 15px;
+    margin-top: 15%;
+}
+.dfsj_topyt a {
+    float: left;
+}
+.dfsj_topyt a {
+    float: left;
+    width: 150px;
+    height: 50px;
+}
+
+
+
+.midaben_con {
+    font-family: arial,"Hiragino Sans GB","Microsoft Yahei",sans-serif;
+    background-color: #fff;
+    height: 50px;
+    border-radius: 5px;
+    clear: both;
+    /* position: relative; */
+}
+.mbm {
+    margin-bottom: 10px !important;
+}
+
+
+.midaben_con .midaben_con_qd {
+    background-color: #e7340c;
+    height: 50px;
+    position: relative;
+}
+
+.midaben_con .midaben_signpanel {
+    height: 50px;
+    display: block;
+    position: relative;
+    width: 150px;
+    float: left;
+    /*background-image: url(./source/plugin/k_misign/static/default/qd-bg.png);*/
+    background-repeat: no-repeat;
+    background-position: 40px 10px;
+    cursor: pointer;
+}
+
+.midaben_con .midaben_signpanel .font {
+    position: absolute;
+    color: #fff;
+    width: 85px;
+    text-align: center;
+    height: 30px;
+    font-size: 18px;
+    line-height: 30px;
+    top: 11px;
+    left: 50px;
+}
+
+.midaben_con .midaben_signpanel .nums {
+    display: none;
+}
+
+.midaben_con .midaben_con_qd .fblock {
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    width: 159px;
+    height: 48px;
+    background-color: #fff;
+    font-size: 14px;
+    color: #606060;
+}
+.midaben_con .midaben_con_qd .fblock .all {
+    height: 23px;
+    line-height: 26px;
+    padding-left: 30px;
+    width: 70px;
+    float: left;
+    border-bottom: 1px solid #eee;
+    /*background-image: url(./source/plugin/k_misign/static/default/tou2.jpg);*/
+    background-repeat: no-repeat;
+    background-position: 5px 0;
+    margin-bottom: 0;
+    color: #606060;
+}
+.midaben_con .midaben_con_qd .fblock .line {
+    height: 22px;
+    line-height: 24px;
+    padding-left: 30px;
+    width: 70px;
+    float: left;
+    /*background-image: url(./source/plugin/k_misign/static/default/tou2.jpg);*/
+    background-repeat: no-repeat;
+    background-position: 5px -25px;
+    color: #606060;
+    font-size: 12px;
+}
+#qmenu {
+    width: 83px;
+    height: 26px;
+    line-height: 26px;
+    margin: 4px 10px 0 0;
+    padding: 0 12px 0 0;
+}
+.midaben_con .midaben_con_qd .fblock .week-date {
+    padding-left: 100px;
+    margin-top: 3px;
+    line-height: 23px;
+    font-size: 12px;
+}
+
+
+
+
+
+
+#sin_bl_search {
+    height: 48px;
+}
+.sportal_right .area {
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #FFF;
+}
+
+.dfsj_bm #scbar {
+    float: left;
+}
+.dfsj_bm #scbar {
+    border-bottom: 1px solid #EDEFF0;
+    width: 208px;
+}
+.dfsj_bm #scbar {
+    background: #FFF;
+    border-bottom: 0;
+}
+#scbar {
+    overflow: hidden;
+    height: 42px;
+    line-height: 42px;
+    border-top: 1px solid #FFF;
+    border-bottom: 1px solid #E9EFF5;
+    background: #E8EFF5;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+    border-collapse: collapse;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.dfsj_bm .scbar_txt_td, .dfsj_bm .scbar_type_td {
+    background: url(https://bbs.nubia.cn/template/sin_nubia/sinkey/searchsd.png) no-repeat 0 -93px;
+    height: 38px;
+    border-top: 1px solid #EDEFF0;
+    border-left: 1px solid #EDEFF0;
+}
+.dfsj_bm .scbar_type_td {
+    background: url(https://bbs.nubia.cn/template/sin_nubia/sinkey/searchsd.png) no-repeat 0 -193px;
+    height: 38px;
+}
+.scbar_type_td {
+    width: 45px;
+}
+.scbar_type_td {
+    width: 61px;
+    background: url(https://bbs.nubia.cn/static/image/common/search.png) no-repeat 0 -193px;
+}
+.scbar_txt_td, .scbar_type_td {
+    background: url(https://bbs.nubia.cn/static/image/common/search.png) repeat-x 0 -93px;
+}
+
+.dfsj_bm #scbar_type {
+    width: 38px;
+    height: 43px;
+    padding-left: 0;
+    text-align: center;
+    background: url(https://bbs.nubia.cn/template/sin_nubia/sinkey/searchsd.png) no-repeat 0 -100px;
+}
+#scbar_type {
+    display: block;
+    padding-left: 10px;
+    text-align: left;
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: #444;
+    text-decoration: none;
+}
+
+.dfsj_bm #scbar_txt {
+    width: 110px;
+}
+.scbar_narrow #scbar_txt {
+    width: 260px;
+}
+#scbar_txt {
+    width: 400px;
+    border: 1px solid #FFF;
+    outline: none;
+}
+.xg1, .xg1 a {
+    color: #999 !important;
+}
+a {
+    outline: none;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+.scbar_icon_td {
+    width: 7px;
+    height: 43px;
+    background: url(https://bbs.nubia.cn/template/sin_nubia/sinkey/searchsd-arrow.png) no-repeat 0 center;
+    border-right: 1px solid #EDEFF0;
+    border-top: 1px solid #EDEFF0;
+    padding: 0 2px;
+    display: block;
+}
+
+.dfsj_bm .scbar_btn_td {
+    background: url(https://bbs.nubia.cn/template/sin_nubia/sinkey/searchsd.png) no-repeat 10px -142px;
+    border-top: 1px solid #EDEFF0;
+    border-right: 1px solid #EDEFF0;
+    height: 38px;
+}
+.scbar_btn_td {
+    width: 38px;
+    background: url(https://bbs.nubia.cn/static/image/common/search.png) no-repeat 8px -142px;
+}
+
+#scbar_btn {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: transparent none;
+    box-shadow: none;
+    padding-right: 20px;
+}
+.pnc, a.pnc {
+    border-color: #C42400;
+    background-color: #E7340C;
+    color: #FFF !important;
+}
+.pn {
+    vertical-align: middle;
+    overflow: hidden;
+    margin-right: 3px;
+    padding: 0;
+    height: 23px;
+    border: 1px solid #C42400;
+    background: #E7340C;
+    cursor: pointer;
+    -moz-box-shadow: 0 1px 0 #E5E5E5;
+    -webkit-box-shadow: 0 1px 0 #E5E5E5;
+    box-shadow: 0 1px 0 #E5E5E5;
+}
+
+#scbar_btn strong {
+    line-height: 84px;
+}
+.pn em, .pn strong {
+    font-weight: 700;
+}
+.pn em, .pn span, .pn strong {
+    padding: 0 10px;
+    line-height: 21px;
+    color: #fff;
+}
+.xi2, .xi2 a, .xi3 a {
+    color: #369;
+}
